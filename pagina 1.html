@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <style>
+     .carousel-inner img {
+    width: 100%;
+    height: 100%;}
+    #listas_en_color_anaranjado{color:orange;}
+  
+ </style>
+ 
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Blog de videojuegos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina_1.html">¿Quienes somos?</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#" aria-expanded="false">
+                  Otros juegos 
+                </a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/god of war.jpg" alt="resident" width="1500" height="200">
+          </div>
+          <div class="carousel-item">
+            <img src="img/god of war 2.png" alt="resident" width="1500" height="200">
+          </div>
+          <div class="carousel-item">
+            <img src="img/god of war 3.jpg" alt="village" width="1500" height="200">
+          </div>
+        </div>
+        
+        
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-9 bg-warning">
+            <p>columna 1</p>
+            <div class="row">
+              <div class="col bg-success">
+
+              </div>
+              <div class="col bg-primary">
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-3 bg">
+            <section>
+              <article>
+              <h1>God of war</h1>
+          <p> columna 2</p>
+          <ul id="listas_en_color_anaranjado" style="text-align: left;">
+            <li>Historia de God of War</li>
+            <li>videojuego</li>
+            <ol>
+      
+              <li value="1">cronologia </li>
+            </ol> 
+           <li>Jugabilidad </li>
+           <li>Criticas </li>
+           <li>Desarrolladores </li>
+        </ul>
+            </article>
+            </section>
+          </div>
+          
+          </div>
+        </div>
+        
+          
+        </div>
+      </div>
+      <section>
+        <article>
+        <h1>God of war</h1>
+    <p></p>
+    <ul id="listas_en_color_anaranjado" style="text-align: left;">
+      <li>Historia de God of War</li>
+      <li>videojuego</li>
+      <ol>
+
+        <li value="1">cronologia </li>
+      </ol> 
+     <li>Jugabilidad </li>
+     <li>Criticas </li>
+     <li>Desarrolladores </li>
+  </ul>
+      </article>
+      </section>
+    
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item ">
+            <a class="page-link" href="index.html" tabindex="-1" >anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">siguiente</a>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        hugo santillan
+        contacto:brian71esquel 2017@gmail.com
+      </footer>
+</body>
+</html>
